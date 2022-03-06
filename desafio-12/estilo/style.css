@@ -5,3 +5,71 @@ body {
     background-color: aquamarine;
 }
  */
+
+ * {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgba(28, 16, 16, 0.57);
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1 {
+    padding: 50px;
+    font-variant: small-caps;
+}
+
+header > p {
+    padding: 50px;
+    margin-top: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    margin-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 35px;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    background-color: rgba(28, 16, 16, 0.57);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.33);
+    padding-left: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10ppx;
+}
